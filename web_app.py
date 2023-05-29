@@ -30,7 +30,7 @@ def collect_user_input():
     return user_input
 
 def main():
-    st.title("Marketing Campaign classifier")
+    st.title("Marketing Campaign Classifier")
     st.write("Enter the values for each column")
 
     user_input = collect_user_input()
